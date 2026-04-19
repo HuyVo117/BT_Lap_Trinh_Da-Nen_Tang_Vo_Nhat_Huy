@@ -12,7 +12,7 @@ void main() {
         appBar: AppBar(
           title: Center(
             child: Text(
-              'ARKNIGHT ENDFILED', 
+              'I Am Rich',
               style: TextStyle(color: Colors.white),
             ),
           ),

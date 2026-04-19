@@ -1,6 +1,6 @@
 {
-    "name": "Dorocard",
-    "short_name": "Dorocard",
+    "name": "MiCard",
+    "short_name": "MiCard",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#004D40",
