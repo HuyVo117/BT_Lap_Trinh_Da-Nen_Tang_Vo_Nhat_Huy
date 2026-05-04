@@ -15,7 +15,9 @@ class WeatherService {
       permission = await Geolocator.requestPermission();
     }
     // Lấy tọa độ (độ chính xác thấp để tiết kiệm pin và nhanh hơn)
-    return await Geolocator.getCurrentPosition(desiredAccuracy: LocationAccuracy.low);
+    return await Geolocator.getCurrentPosition(
+      locationSettings: const LocationSettings(accuracy: LocationAccuracy.low),
+    );
   }
 
   // 2. Hàm lấy thời tiết từ tọa độ
